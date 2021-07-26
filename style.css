@@ -19,7 +19,7 @@ html, body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(rgb(112, 112, 236),rgb(0, 0, 0));
+    background-image: linear-gradient(rgb(68, 68, 200),rgb(65, 65, 65));
 
 }
 .form{
@@ -35,18 +35,22 @@ html, body{
     color: black;
 }
 
-.inp, .bt{
+.inp{
     width:80%;
     height:50px;
     margin: 10px 10px;
     cursor: pointer;
     border: 2px solid rgb(163, 163, 163);
-    border-radius: 4px;
+
 }
 .bt{
+    width:55%;
+    height:45px;
+    cursor: pointer;
     color:white;
     font-size: 18px;
-    font-weight: bold;
+    border:none;
+    border-radius: 20px;
     background-color:rgb(25, 0, 255);
 }
 .bt:hover{
