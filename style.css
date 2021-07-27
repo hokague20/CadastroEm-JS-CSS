@@ -94,8 +94,8 @@ form .input-block:nth-child(1) {
     animation-fill-mode: backwards;
   }
   form .input-block:nth-child(3) {
-    animation: move 400ms;
-    animation-delay: 100ms;
+    animation: move 350ms;
+    animation-delay: 150ms;
     animation-fill-mode: backwards;
   }
 
