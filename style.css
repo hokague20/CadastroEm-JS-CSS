@@ -40,7 +40,7 @@ section {
   }
   
   form .input-block label{
-    font-size: 14px;
+    font-size: 17px;
     color: darkslateblue;
   }
   
@@ -49,7 +49,7 @@ section {
     display: block;
     margin-top: 8px;
     padding: 7px;
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(115, 152, 212);
     border-radius: 2px;
     border: 1px solid #ccddef;
@@ -70,7 +70,7 @@ section {
   }
 form .btn-sign:hover{
     background-color:rgb(78, 118, 182);
-    transition-duration: 500ms;
+    transition-duration: 300ms;
 }
 
 /* keyframes */
@@ -94,11 +94,16 @@ form .input-block:nth-child(1) {
     animation-fill-mode: backwards;
   }
   form .input-block:nth-child(3) {
-    animation: move 350ms;
+    animation: move 400ms;
     animation-delay: 150ms;
     animation-fill-mode: backwards;
   }
-
+form .btn-sign{
+    animation-name:move;
+    animation-duration: 400ms;
+    animation-delay: 200ms;
+    animation-fill-mode: backwards;
+}
 
 @keyframes fade{
     from{
